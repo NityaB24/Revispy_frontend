@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import axios from 'axios'; // Make sure to import axios
+import axios from 'axios'; 
 import './styles/Category.css'; 
 
 const Category = () => {

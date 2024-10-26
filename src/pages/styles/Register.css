@@ -57,14 +57,14 @@
   }
 
   .message {
-    margin-bottom: 10px; /* Space below the message */
-    font-size: 14px; /* Adjust font size if needed */
+    margin-bottom: 10px; 
+    font-size: 14px; 
 }
 
 .message.success {
-    color: green; /* Green color for success messages */
+    color: green; 
 }
 
 .message.error {
-    color: red; /* Red color for error messages */
+    color: red; 
 }
