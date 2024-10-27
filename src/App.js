@@ -5,6 +5,7 @@ import OtpVerification from "./pages/OtpVerification";
 import Login from './pages/Login';
 import Header from "./components/Header";
 import Category from "./pages/Category";
+import Logout from "./pages/Logout";
 
 function App() {
   const token = localStorage.getItem('token');
@@ -15,6 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/otp-verification" element={<OtpVerification />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/" element={token ? <Category /> : <Navigate to="/login" />} />
       </Routes>
     </Router>
